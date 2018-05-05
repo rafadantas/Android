@@ -1,9 +1,9 @@
 # Android
-Projeto Android
+Projeto Android utilizando KOTLIN + FIREBASE
 
 EQUIPE = O SENHOR DOS PROJETOS.
 
-   TEMA = ESCOLA FÁCIL.
+   App = ESCOLA FÁCIL.
    
    KELTON RIBEIRO PATRÍCIO;
    RAFAEL DANTAS NASCIMENTO;
