@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:fab="http://schemas.android.com/tools"
+    android:id="@+id/cardView"
+    android:layout_margin="10dp"
+    android:elevation="4dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/txtNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:textSize="25sp"
+            android:layout_below="@id/thumbnail"/>
+
+        <TextView
+            android:id="@+id/txtInep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:layout_below="@id/txtNome"/>
+
+        <TextView
+            android:id="@+id/txtCategoria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:layout_below="@id/txtInep"/>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_more_vert_black_24dp"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/thumbnail"/>
+
+       <!-- <com.github.clans.fab.FloatingActionMenu
+            android:id="@+id/lista_escolas_adiciona_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            fab:menu_backgroundColor="#ccffffff"
+            fab:menu_colorNormal="#367C25"
+            fab:menu_colorPressed="#266817"
+            fab:menu_colorRipple="#195b09"
+            fab:menu_labels_colorNormal="#fff"
+            fab:menu_labels_ellipsize="end"
+            fab:menu_labels_singleLine="true"
+            fab:menu_labels_textColor="#000">
+
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/lista_escolas_adiciona_municipal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_arrow_top_right_white_24dp"
+                fab:fab_colorNormal="@color/municipal"
+                fab:fab_colorPressed="#2945fc"
+                fab:fab_colorRipple="#3216e2"
+                fab:fab_label="@string/adiciona_municipal"
+                fab:fab_size="mini" />
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/lista_escolas_adiciona_estadual"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_arrow_bottom_left_white_24dp"
+                fab:fab_colorNormal="@color/estadual"
+                fab:fab_colorPressed="#E8004A"
+                fab:fab_colorRipple="#C20024"
+                fab:fab_label="@string/adiciona_estadual"
+                fab:fab_size="mini"
+                />
+
+        </com.github.clans.fab.FloatingActionMenu>-->
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
+

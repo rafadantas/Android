@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#367C25</color>
+    <color name="colorPrimaryDark">#256c13</color>
+    <color name="colorAccent">#367C25</color>
+    <color name="colorBackground">#ffffff</color>
+    <color name="municipal">#ff0d00</color>
+    <color name="estadual">#ff9f10</color>
+    <color name="sair">#ffffff</color>
+</resources>

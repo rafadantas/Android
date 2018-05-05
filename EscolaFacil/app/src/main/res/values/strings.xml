@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Escola Fácil</string>
+    <string name="lista_escolas_adiciona" />
+    <string name="adiciona_municipal">Adiciona Escola Municipal</string>
+    <string name="adiciona_estadual">Adiciona Escola Estadual</string>
+    <string name="altera_municipal">Altera Escola Municipal</string>
+    <string name="altera_estadual">Altera Escola Estadual</string>
+    <string name="Nome">Nome</string>
+    <string name="Inep">Inep</string>
+    <string name="categoria">Categoria</string>
+    <string name="municipal">Escolas Municipais</string>
+    <string name="estadual">Escolas Estaduais</string>
+    <string name="total">Total</string>
+    <string name="mes">Mês</string>
+    <string name="ano">Ano</string>
+    <string name="checkLogin">Manter conectado</string>
+    <string name="logout">Sair</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+</resources>

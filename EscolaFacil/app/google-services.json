@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "84282433504",
+    "firebase_url": "https://escolafacilunipe1.firebaseio.com",
+    "project_id": "escolafacilunipe1",
+    "storage_bucket": "escolafacilunipe1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:84282433504:android:5d46cf2c7f5b8999",
+        "android_client_info": {
+          "package_name": "br.com.rafa.escolafacil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "84282433504-s54tp2ram89or3q8lq53evms3oru1fd1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.rafa.escolafacil",
+            "certificate_hash": "c57262f9ee40577a92347aa7f2e318fb6b5f08a8"
+          }
+        },
+        {
+          "client_id": "84282433504-7u9g24a28kkodg44r7dvoteeq3ue84bf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1qWqSpsdpyeExNI50NxEV_nf6dvxWUEM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "84282433504-7u9g24a28kkodg44r7dvoteeq3ue84bf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
